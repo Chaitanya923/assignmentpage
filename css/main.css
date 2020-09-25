@@ -1,0 +1,259 @@
+body{
+   font-family: "GoogleSans-Regular",sans-serif;
+ }
+ .row{
+  margin: 0%;
+  padding: 0%;
+ }
+.row-content{
+   height: 500px;
+}
+.display{
+   background-color: rgb(84, 5, 194); 
+   background-image: url(../images/display.jpg);
+   text-align: center;
+}
+.displaycontent{
+   padding: 10%;
+}
+.signupbtn{
+   background-color: #ffffff;
+   color: #000;
+   border-radius: 100px/130px;
+   font-size: 27px;
+   padding: 1%;
+   margin: 50px;
+   text-align: center;
+}
+.signupbtn:hover{
+  background-color: transparent;
+  border: 1px white solid;
+  color: #ffffff;
+  text-decoration: none;
+}
+.navimg{
+   filter: invert(100%);
+}
+.bg-white{
+  background: #fff;
+}
+.box-round{
+  border-radius: 26px; 
+  overflow: hidden; 
+  padding-top: 15px; 
+  padding-bottom: 25px;
+  margin: 5%;
+}
+.box-review{
+  border-radius: 26px;  
+  padding-top: 15px; 
+  padding-bottom: 25px;
+  margin: 5%;
+}
+.box-panel{
+  border-radius: 26px;
+  padding: 22px;
+  margin: 2%;
+}
+.text-primery{
+  color: #5e53c2;
+} 
+.box-head{
+  font-size: 40px;
+}
+.pl{
+  color: black;
+  font-size: small;
+}
+.howitwork{
+padding-top: 5%;
+padding-bottom: 5%;
+}
+.rowcon{
+margin: 2%;
+}
+.newbtn{
+background-color: #5a047c;
+color: #fff;
+border-radius: 100px/130px;
+font-size: 18px;
+padding: 13px 2%;
+margin-bottom: 50px;
+text-align: center;
+}
+footer{
+   margin-top: 30px;
+   margin-left: 90px;
+   display: grid; 
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   padding: 20px;
+   float: left;
+   font-size: 15px;
+   color: rgb(126, 125, 125);
+ }
+ .wpbFooterTitle{
+    color: #000000;
+    font-size: 25px;
+    padding-left: 30px;
+ }
+ .wpbContent ul li{
+    list-style: none;
+    line-height: 40px;
+ }
+ .wpbContent2 ul li{
+   list-style: none;
+   line-height: 40px;
+ }
+ footer .box1 i {
+   color: black;
+   background-color: white;
+   border-radius: 50%;
+   border: 1px solid grey;
+   padding: 10px;
+ }
+ footer .wpbContent2 i {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 5px;
+}
+.footnav{
+  float: right;
+}
+@media screen and (min-width: 804px) {
+  .trybtn{
+    background-color: #ffffff;
+    border-radius: 100px/130px;
+  }
+  .trybtn a{
+    color: black;
+  }
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0; 
+    }
+    .iframedesktop{
+      display: block;
+    }
+    .iframemobile{
+      display: none;
+    }
+    nav a {
+      padding: 1% 10%;
+      color: #ffffff;
+    }
+    nav a:hover {
+    color: #ffffff;
+  }
+}
+  @media only screen and (max-width: 1200px) {
+footer{
+     margin-top: 30px;
+     margin-left: 90px;
+     display: grid; 
+     grid-template-columns: 1fr 1fr 1fr;
+     padding: 20px;
+     float: none;
+   }
+   .box1 {
+     grid-column-start: 1;
+     grid-column-end: 4;
+   }
+
+ }
+ @media only screen and (max-width: 1000px) {
+   /* For tab: */
+   .footerbrand{
+     padding-left: 10%;
+     height: auto;
+     padding-top: 2%;
+   } 
+ .wpbContent ul li{
+   width: 100%;
+   margin-left: 10px;
+   text-align: center;
+ }
+ .wpbContent2 ul li{
+   width: 100%;
+   margin-left: 1px;
+   padding-left: 1px;
+   text-align: left;
+ }
+ }
+
+  @media screen and (max-width: 500px) {
+   .displaycontent{
+   padding: 1%;
+   }
+   .displaycontent{
+     padding-top: 50%;
+  }
+ 
+  nav  {
+   background-color: #ffffff;
+   }
+   
+.navimg{
+   filter: invert(0%);
+}
+   .signupbtn{
+      background-color: #ffffff;
+      border-radius: 100px/130px;
+      font-size: 20px;
+      padding: 1%;
+      margin: 50px;
+      text-align: center;
+   }
+ }
+
+ @media only screen and (max-width: 768px) {
+   /* For mobile phones: */
+
+   .body{
+     margin: 40px;
+     padding-left: 10px;
+     display: block;
+     width:80%;
+     float:left;
+   }
+   .iframedesktop{
+    display: none;
+  }
+  .iframemobile{
+    display: block;
+  }
+
+  .newbtn{
+    font-size: 12px;
+    padding: 13px 2px;
+    }
+   footer{
+     margin-top: 30px;
+     margin-left: 1px;
+     margin-right: 0px;
+     display: block;
+     padding: 2px;
+     float: left;
+ }
+
+ .wpbFooterTitle{
+   padding-left: 0px;
+ }
+ .wpbContent ul li{
+   width: 100%;
+   margin-left: 1px;
+   text-align: left;
+   padding-left: 0px;
+   float: left;
+ }
+ .wpbContent2 ul li{
+   width: 100%;
+   text-align: left;
+   padding-left: 0px;
+   float: left;
+ }
+ .footnav{
+   float: left;
+ }
+}
